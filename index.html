@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karthik Sai Anala | Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Karthik Sai Anala — Student & Full Stack Developer passionate about building modern web applications." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">&lt;<span>AKS</span>/&gt;</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <canvas id="particles-canvas"></canvas>
+    <div class="hero-container">
+      <div class="hero-text" data-aos="fade-right">
+        <p class="hero-greeting">👋 Hi, I'm</p>
+        <h1 class="hero-name">Karthik Sai<br /><span class="gradient-text">Anala</span></h1>
+        <div class="hero-typed-wrapper">
+          <span class="typed-prefix">I'm a </span>
+          <span id="typed-text"></span>
+        </div>
+        <p class="hero-bio">
+          Passionate about turning ideas into elegant, functional web experiences. 
+          Always learning, always building.
+        </p>
+        <div class="hero-buttons">
+          <a href="resume.pdf" download class="btn btn-primary">
+            <i class="fas fa-download"></i> Resume
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/karthiksaianala07" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://in.linkedin.com/in/karthik-sai-anala-708264322" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:karthiksaianala@gmail.com" class="social-link" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual" data-aos="fade-left">
+        <div class="avatar-wrapper">
+          <div class="avatar-ring"></div>
+          <div class="avatar-ring ring-2"></div>
+          <div class="avatar-core">
+            <div class="avatar-initials">AKS</div>
+            <div class="avatar-code">
+              <span>&lt;dev/&gt;</span>
+            </div>
+          </div>
+          <div class="avatar-orbit">
+            <div class="orbit-dot dot-1"><i class="fab fa-react"></i></div>
+            <div class="orbit-dot dot-2"><i class="fab fa-node-js"></i></div>
+            <div class="orbit-dot dot-3"><i class="fab fa-python"></i></div>
+            <div class="orbit-dot dot-4"><i class="fab fa-js"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual" data-aos="fade-right">
+          <div class="about-avatar-card">
+            <div class="about-avatar">
+              <div class="about-initials">AKS</div>
+            </div>
+            <div class="about-badge">
+              <i class="fas fa-circle pulse-green"></i> Open to Work
+            </div>
+          </div>
+        </div>
+        <div class="about-content" data-aos="fade-left">
+          <h3 class="about-heading">Student &amp; Full Stack Developer</h3>
+          <p class="about-bio">
+            I'm a passionate student and Full Stack Developer who loves building modern web applications. 
+            I enjoy turning ideas into reality through code, and I'm always learning new technologies.
+          </p>
+          <p class="about-bio">
+            From responsive frontends to robust backends, I love every layer of the stack. 
+            When I'm not coding, I'm exploring new frameworks, contributing to open source, or leveling up my problem-solving skills.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-card">
+              <i class="fas fa-user"></i>
+              <div>
+                <span class="info-label">Name</span>
+                <span class="info-value">Karthik Sai Anala</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="info-label">Email</span>
+                <span class="info-value">karthiksaianala@gmail.com</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-code"></i>
+              <div>
+                <span class="info-label">Role</span>
+                <span class="info-value">Full Stack Developer</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <span class="info-label">Status</span>
+                <span class="info-value">Student · Open to Work</span>
+              </div>
+            </div>
+          </div>
+          <a href="resume.pdf" download class="btn btn-primary mt-1">
+            <i class="fas fa-download"></i> Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section class="skills section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Technologies I work with</p>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-aos="fade-up" data-delay="0">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">HTML / CSS</span>
+              <span class="skill-percent">85%</span>
+            </div>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-delay="100">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fab fa-js"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-percent">80%</span>
+            </div>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-delay="200">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fab fa-react"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">React</span>
+              <span class="skill-percent">75%</span>
+            </div>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-delay="300">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">Node.js</span>
+              <span class="skill-percent">70%</span>
+            </div>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-delay="0">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fab fa-python"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">Python</span>
+              <span class="skill-percent">70%</span>
+            </div>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-delay="100">
+          <div class="skill-header">
+            <div class="skill-icon skill-icon-tailwind"><i class="fas fa-wind"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">Tailwind CSS</span>
+              <span class="skill-percent">85%</span>
+            </div>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-delay="200">
+          <div class="skill-header">
+            <div class="skill-icon skill-icon-express"><i class="fas fa-server"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">Express.js</span>
+              <span class="skill-percent">65%</span>
+            </div>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-delay="300">
+          <div class="skill-header">
+            <div class="skill-icon skill-icon-git"><i class="fab fa-git-alt"></i></div>
+            <div class="skill-info">
+              <span class="skill-name">Git / GitHub</span>
+              <span class="skill-percent">80%</span>
+            </div>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Things I've built</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+      </div>
+
+      <!-- Project Cards -->
+      <div class="projects-grid">
+
+        <!-- ShieldCheck -->
+        <div class="project-card" data-category="fullstack" data-aos="fade-up">
+          <div class="project-thumbnail thumb-1">
+            <div class="thumb-icon"><i class="fas fa-shield-alt"></i></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">ShieldCheck</h3>
+            <p class="project-desc">
+              Real-time credential auditing tool calculating bit-level password entropy and structural vulnerability feedback. Models brute-force crack-time estimates across Standard PC &amp; GPU Cluster hardware benchmarks. Deployed on Render.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">HTML</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/karthiksaianala07/Password-Strength-Analyser" class="proj-btn proj-btn-outline" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- IITP PathFinder -->
+        <div class="project-card" data-category="fullstack" data-aos="fade-up" style="transition-delay:0.1s">
+          <div class="project-thumbnail thumb-2">
+            <div class="thumb-icon"><i class="fas fa-route"></i></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">IITP PathFinder</h3>
+            <p class="project-desc">
+              Web-based campus navigation app for IIT Patna — models 20+ campus nodes as a weighted graph to compute shortest-path routes, with validated geospatial API endpoints. Built in a 4-member team. Deployed on Render.
+            </p>
+            <div class="project-tags">
+              <span class="tag">React.js</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Leaflet.js</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Vite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/karthiksaianala07/IITP-PathFinder" class="proj-btn proj-btn-outline" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- IkshaTests -->
+        <div class="project-card" data-category="fullstack" data-aos="fade-up" style="transition-delay:0.2s">
+          <div class="project-thumbnail thumb-3">
+            <div class="thumb-icon"><i class="fas fa-clipboard-list"></i></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">IkshaTests</h3>
+            <p class="project-desc">
+              Full-stack competitive mock exam platform supporting 100+ timed assessments. Enforces role-based access control (RBAC), parameterized PostgreSQL queries, and server-side timer/submission validation to prevent exam tampering.
+            </p>
+            <div class="project-tags">
+              <span class="tag">React.js</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Express.js</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Supabase</span>
+            </div>
+            <div class="project-links">
+              <a href="https://ikshatests.in" class="proj-btn" target="_blank" rel="noopener">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+              <a href="https://github.com/karthiksaianala07/IKSHATESTS" class="proj-btn proj-btn-outline" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Let's work together — I'd love to hear from you!</p>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Let's Connect</h3>
+          <p>Whether you have a project idea, a job opportunity, or just want to say hi — my inbox is always open.</p>
+          <div class="contact-cards">
+            <a href="mailto:karthiksaianala@gmail.com" class="contact-card">
+              <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">karthiksaianala@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://github.com/karthiksaianala07" target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-card-icon"><i class="fab fa-github"></i></div>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">github.com/karthiksaianala07</span>
+              </div>
+            </a>
+            <a href="https://in.linkedin.com/in/karthik-sai-anala-708264322" target="_blank" rel="noopener" class="contact-card">
+              <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">Karthik Sai Anala</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper" data-aos="fade-left">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Collaboration" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or just say hi..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#home" class="nav-logo footer-logo">&lt;<span>AKS</span>/&gt;</a>
+        <p class="footer-text">Made with <i class="fas fa-heart" style="color:#ff4d6d"></i> and <i class="fas fa-coffee" style="color:#f4a261"></i> by Karthik Sai Anala</p>
+        <div class="footer-socials">
+          <a href="https://github.com/karthiksaianala07" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://in.linkedin.com/in/karthik-sai-anala-708264322" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:karthiksaianala@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="footer-copy">&copy; 2024 Karthik Sai Anala. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Typed.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
